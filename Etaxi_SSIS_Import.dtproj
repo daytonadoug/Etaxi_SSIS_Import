@@ -26,26 +26,170 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WICTWKLT001</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqqwsVdmZRkCviLHPZwQ8PQAAAAACAAAAAAADZgAAwAAAABAAAAALJ/EOyJeaL1vK6n//J7OJAAAAAASAAACgAAAAEAAAAJTZERxnQo8Os6dUXhsGCtKIAAAAYV8M9f6wqZURXwQgPk4RR1Ezmjf7RshArzoGeNrkp1DESJ3O8jAFXr3HzWeNe52Bo3X5lC4mHZQ02sBU6RcrmR4Qy4fN729wwlsU//jJUbIW+pM1/oTn8itphQ4L47VyKXenYQf4DaEQ65zyuIHNVzZSGEN3y4nSYiov2jpPrkKt99p5hHGvuhQAAACViMMXD750tTWqM5WFA34RFla0YQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqqwsVdmZRkCviLHPZwQ8PQAAAAACAAAAAAADZgAAwAAAABAAAAAbghEUO3V1JExCN17q7ua9AAAAAASAAACgAAAAEAAAADr/iW2NpxRMx7zmCr4/Sj+IAAAAq9IIfhi4pQmqdU6uvLmRV76pq3zRqpnauO9z8fx/ZnC08vsF5bj9xMn+oQuBBa/8U/z0UgPqE1wMu5u5rGa68TNvsEZOS26ySNigw2JJlQY/90Tv4OSWxyR+ZmMozy2vSYcGyVEJjmnJlGp5bDNQVVaxh06m8sQcZ00UqF8K8+w278p3hQ35EhQAAABPIpl487hTbM5akI3afZE+t6876w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Delinquent.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Parcel.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="UniqueParcel.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="UniqueMunTaxRollYear.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="UniqueTaxRollYear.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Tax.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Credit.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="CreditLabelLookUp.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="TaxLabelLookUp.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="Delinquent.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{F028A142-98CB-43EB-B854-DB3C1A40D1A8}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{909F97E7-6F69-437D-BD5B-414D688CAD04}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{8DB7EEEA-2955-4D5F-8DAA-0C10A9A5A9D2}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{949837F2-F20C-46A1-9762-F15D3883A4AE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Parcel.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{F028A142-98CB-43EB-B854-DB3C1A40D1A8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{7091E409-7CD0-40BC-A9E1-8AE8A78339E1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="UniqueParcel.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{F98B2467-841B-45F9-A0CE-062A42026D61}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{962BFBFB-5254-4A48-BAB4-9265713F0A06}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="UniqueMunTaxRollYear.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{1DDD234B-DDA0-4D17-B313-EBF4C795A150}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{A1B5FA1A-E902-4EA6-94CD-55C0896DD976}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="UniqueTaxRollYear.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{C102C640-A509-402E-8585-4035A8338210}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{77F24598-3144-475A-8A2D-D07C43F981C1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Tax.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{5AA8FF2E-931E-478B-90AA-A7AB302AC584}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6221C495-FDDE-4420-82F7-4A6854019A4A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Credit.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{EA436B0B-42BA-4216-819B-B8283C8E550D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Credit</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FA5E6E20-814D-470C-8505-F79BF66A91BE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="CreditLabelLookUp.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{90AB8B3F-A927-4FB7-8FBA-A31B18A8F55B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D79BE96A-938E-465C-9235-94F780F3CCA8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="TaxLabelLookUp.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{92D5EF2F-88C6-4DC0-8F6C-52B4FEE741D5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{A42008A9-9B2E-4D1B-9A8F-E0F237E73368}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -76,7 +220,13 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2022-12-07T20:16:21.408408Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
     <Configuration>
